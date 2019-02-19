@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colossal Arena</title>
+    <link rel="stylesheet" type="text/css" href="theme.css" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui"
+    />
+  </head>
+
+  <h1>Colossal Arena</h1>
+  <h3>creature selector</h3>
+
+  <div id="cards"></div>
+  <div class="clear"></div>
+
+  <input type="button" onclick="nextCombination()" value="random" />
+
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content"></div>
+  </div>
+
+  <p>
+    game info at
+    <a
+      target="_blank"
+      href="https://boardgamegeek.com/boardgame/105/colossal-arena"
+      >boardgamegeek.com</a
+    >
+  </p>
+
+  <script type="text/javascript" src="code.js"></script>
+</html>
